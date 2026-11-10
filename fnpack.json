@@ -37,6 +37,18 @@
               "size": 1094975
             }
           }
+        },
+        "1.0.3": {
+          "changelog": "阅读器加“上一章/下一章”按钮，同文件夹内按书名顺序跳上一本/下一本，跳过去回到那本上次的进度；第一本上一章置灰、最后一本下一章置灰；PDF/EPUB/TXT/AZW3 都有。",
+          "updated_at": "2026-11-10T23:04:00+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.3-arm64.fpk",
+              "sha256": "c0db03711d3be36cc0e6af1bdadc26efdfcc1e90fcc798b8797e6e39c04519cc",
+              "size": 1096325
+            }
+          }
         }
       }
     },
