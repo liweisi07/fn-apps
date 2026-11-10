@@ -1,0 +1,77 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "可乐的应用源",
+    "author": "liweisi07",
+    "homepage": "https://github.com/liweisi07/fn-apps",
+    "description": "可乐阅读与 CF 优选 IP 的飞牛 fnOS 应用源。"
+  },
+  "apps": {
+    "kele": {
+      "display_name": "可乐阅读",
+      "desc": "私有云书架：把 NAS 上的 PDF、EPUB、TXT、AZW3 电子书和漫画集中管理，手机和电脑用浏览器在局域网内打开就能看，阅读进度自动同步到本机，不设文件大小限制。",
+      "platform": [
+        "arm"
+      ],
+      "categories": [
+        "阅读",
+        "工具"
+      ],
+      "icon_url": "./kele/ICON.PNG",
+      "maintainer": "liweisi07",
+      "maintainer_url": "https://github.com/liweisi07",
+      "distributor": "liweisi07",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "18090",
+      "releases": {
+        "1.0.2": {
+          "changelog": "改名可乐阅读（内部名 kele，全新应用，需先卸载旧版再安装，端口仍为 18090，书库与进度需重新设置）；设置页加“返回书架”按钮；EPUB 漫画图强制按宽适配、不再只露一部分；PDF 打开即记进度，历史与进度条和 EPUB 一致；书架加排序（书名/大小/日期/进度）；文件夹默认折叠。",
+          "updated_at": "2026-11-10T15:23:00+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.2-arm64.fpk",
+              "sha256": "3e479665e356267a27a299998385dc1c781af3f4d24fec1364076fe22bcfb98a",
+              "size": 1094975
+            }
+          }
+        }
+      }
+    },
+    "cfbestipd": {
+      "display_name": "CF优选IP（域名版）",
+      "desc": "定时测出最优 Cloudflare IP，自动把自定义域名的 DNS 记录（仅 DNS 解析，不开代理）指向最优 IP；订阅里走 CF 的节点地址写成该域名，客户端更新订阅或等 DNS 生效即拿到优选 IP。订阅与令牌配置只存在本机，不向第三方发送你的数据。",
+      "platform": [
+        "arm"
+      ],
+      "categories": [
+        "网络",
+        "工具"
+      ],
+      "icon_url": "./cf-bestip-domain/ICON.PNG",
+      "maintainer": "liweisi07",
+      "maintainer_url": "https://github.com/liweisi07",
+      "distributor": "liweisi07",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "18089",
+      "releases": {
+        "1.0.16": {
+          "changelog": "测速计划新增每天固定时间模式；优选 IP 可按地区筛选。",
+          "updated_at": "2026-11-06T11:13:00+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/cf-bestip-domain/cf-bestip-domain-1.0.16-arm64.fpk",
+              "sha256": "e8eab84d0977198033665df15519127739b2d0645103bc683ec2b44e0887fff6",
+              "size": 3001616
+            }
+          }
+        }
+      }
+    }
+  }
+}
