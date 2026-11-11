@@ -89,6 +89,23 @@
               "size": 1099299
             }
           }
+        },
+        "1.0.6": {
+          "changelog": "阅读历史可折叠——和文件夹一样默认收起，点标题展开，标题旁显示条数",
+          "updated_at": "2026-11-11T16:40:45+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.6-arm64.fpk",
+              "sha256": "4c73c6e9c4eb6c62d6562424e7af1ca10ac32fc5807960a0f52207373b21d105",
+              "size": 1099533
+            },
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.6-x86_64.fpk",
+              "sha256": "7b1ea2dcb90fadfecc97886b54a411a7af9eab1c5d727ee944e9868b907a73b7",
+              "size": 1099533
+            }
+          }
         }
       }
     },
