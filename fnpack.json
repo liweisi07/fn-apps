@@ -46,13 +46,13 @@
           "packages": {
             "arm": {
               "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.3-arm64.fpk",
-              "sha256": "c0db03711d3be36cc0e6af1bdadc26efdfcc1e90fcc798b8797e6e39c04519cc",
-              "size": 1096325
+              "sha256": "eebec1140c67413ed3d80f1718e1a038226d9e5141fda74c7af8e550f18904eb",
+              "size": 1096322
             },
             "x86": {
               "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.3-x86_64.fpk",
-              "sha256": "6cf2bc7765d2a28f652ff5aabaa44f528aae553845a8cbe3279c9369e6794a68",
-              "size": 1096314
+              "sha256": "3451d42eecdbbdaa028fbe0ea1a19e204e1d46f96dfc2c72ccb3db59a79bd5e8",
+              "size": 1096303
             }
           }
         }
