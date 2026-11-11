@@ -11,7 +11,8 @@
       "display_name": "可乐阅读",
       "desc": "私有云书架：把 NAS 上的 PDF、EPUB、TXT、AZW3 电子书和漫画集中管理，手机和电脑用浏览器在局域网内打开就能看，阅读进度自动同步到本机，不设文件大小限制。",
       "platform": [
-        "arm"
+        "arm",
+        "x86"
       ],
       "categories": [
         "阅读",
@@ -47,6 +48,11 @@
               "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.3-arm64.fpk",
               "sha256": "c0db03711d3be36cc0e6af1bdadc26efdfcc1e90fcc798b8797e6e39c04519cc",
               "size": 1096325
+            },
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.3-x86_64.fpk",
+              "sha256": "6cf2bc7765d2a28f652ff5aabaa44f528aae553845a8cbe3279c9369e6794a68",
+              "size": 1096314
             }
           }
         }
