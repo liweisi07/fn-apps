@@ -55,6 +55,23 @@
               "size": 1096303
             }
           }
+        },
+        "1.0.4": {
+          "changelog": "修“上一章/下一章”点了没反应：Service Worker 缓存名现跟版本号走，升级后完全关闭再打开应用即可。",
+          "updated_at": "2026-11-11T10:16:00+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.4-arm64.fpk",
+              "sha256": "6d046961c5a846d3913aa50b35ebae5a2e7c3d24ecdd8042798c49ca7a5e8b9e",
+              "size": 1096913
+            },
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.4-x86_64.fpk",
+              "sha256": "d06cff7c2ba252b8823bc8fdc13c5af84580e7c4f5005ec1c1077376923d54bb",
+              "size": 1096914
+            }
+          }
         }
       }
     },
