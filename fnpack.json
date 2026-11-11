@@ -72,6 +72,23 @@
               "size": 1096914
             }
           }
+        },
+        "1.0.5": {
+          "changelog": "新增 MOBI、AZW 格式支持；TXT 小说加章节目录（自动识别章节，工具栏“目录”按钮可跳章）",
+          "updated_at": "2026-11-11T10:40:07+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.5-arm64.fpk",
+              "sha256": "9d73844da211be8da4811708cdad52bbc970a9a4c625886d0ecc46f3fb51b7d5",
+              "size": 1099303
+            },
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.5-x86_64.fpk",
+              "sha256": "52b9d5353521e86e390b117d0f3948e8196b5cccd7a83fcac3ac81480833eaa0",
+              "size": 1099299
+            }
+          }
         }
       }
     },
