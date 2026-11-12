@@ -151,6 +151,18 @@
               "size": 3125166
             }
           }
+        },
+        "1.0.18": {
+          "changelog": "安装向导的服务端口与测速间隔已预填默认值；账号设置移到右上角“⚙ 设置”按钮后，可改账号和密码。",
+          "updated_at": "2026-11-12T11:42:16+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/cf-bestip-domain/cf-bestip-domain-1.0.18-arm64.fpk",
+              "sha256": "411366d465a744fca2cb70feb99b7f73ee8f2e4c49779d26f684f1aff9f1e291",
+              "size": 3126637
+            }
+          }
         }
       }
     }
