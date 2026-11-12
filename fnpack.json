@@ -139,6 +139,18 @@
               "size": 3001616
             }
           }
+        },
+        "1.0.17": {
+          "changelog": "设置页加账号密码登录，登录后可在设置页修改密码；图标换成 globe + 闪电的新设计。",
+          "updated_at": "2026-11-12T11:01:10+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/cf-bestip-domain/cf-bestip-domain-1.0.17-arm64.fpk",
+              "sha256": "1dab6a55fd090ea8976609c2863cc62dd615e3379c5e2bcdd6c243a7d521be76",
+              "size": 3125166
+            }
+          }
         }
       }
     }
