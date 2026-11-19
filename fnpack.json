@@ -120,9 +120,9 @@
         "工具"
       ],
       "icon_url": "./cf-bestip-domain/ICON.PNG",
-      "maintainer": "liweisi07",
-      "maintainer_url": "https://github.com/liweisi07",
-      "distributor": "liweisi07",
+      "maintainer": "可乐冰",
+      "maintainer_url": "https://cola.dot2.nyc.mn/",
+      "distributor": "可乐冰",
       "run_as": "package",
       "install_type": "",
       "is_docker": false,
@@ -175,8 +175,21 @@
               "size": 3126426
             }
           }
+        },
+        "1.0.20": {
+          "changelog": "开发者改为可乐冰，点开发者可打开博客；发布者同步改为可乐冰。",
+          "updated_at": "2026-11-19T16:48:04+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/cf-bestip-domain/cf-bestip-domain-1.0.20-arm64.fpk",
+              "sha256": "b32df17646048c2aff46784488dd1c8ed7db8d7d59948497eae4b66840968e1c",
+              "size": 3126448
+            }
+          }
         }
-      }
+      },
+      "distributor_url": "https://cola.dot2.nyc.mn/"
     }
   }
 }
