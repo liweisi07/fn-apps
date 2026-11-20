@@ -19,9 +19,9 @@
         "工具"
       ],
       "icon_url": "./kele/ICON.PNG",
-      "maintainer": "liweisi07",
-      "maintainer_url": "https://github.com/liweisi07",
-      "distributor": "liweisi07",
+      "maintainer": "可乐冰",
+      "maintainer_url": "https://cola.dot2.nyc.mn/",
+      "distributor": "可乐冰",
       "run_as": "package",
       "install_type": "",
       "is_docker": false,
@@ -106,8 +106,26 @@
               "size": 1099533
             }
           }
+        },
+        "1.0.7": {
+          "changelog": "开发者改为可乐冰，点开发者可打开博客；发布者同步改为可乐冰。",
+          "updated_at": "2026-11-20T08:14:33+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.7-arm64.fpk",
+              "sha256": "4c4e249fa7e9b724b9ef7cd434e675416562cb30265160b13383a03b6724f1e6",
+              "size": 1099639
+            },
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/kele/kele-reader-1.0.7-x86_64.fpk",
+              "sha256": "04c9437f393f8b24e476188b701a00d89dabb229d8ca5ab1f467d14bcfb54703",
+              "size": 1099627
+            }
+          }
         }
-      }
+      },
+      "distributor_url": "https://cola.dot2.nyc.mn/"
     },
     "cfbestipd": {
       "display_name": "CF优选IP（域名版）",
