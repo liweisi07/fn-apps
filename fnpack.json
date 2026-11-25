@@ -131,7 +131,8 @@
       "display_name": "CF优选IP（域名版）",
       "desc": "定时测出最优 Cloudflare IP，自动把自定义域名的 DNS 记录（仅 DNS 解析，不开代理）指向最优 IP；订阅里走 CF 的节点地址写成该域名，客户端更新订阅或等 DNS 生效即拿到优选 IP。订阅与令牌配置只存在本机，不向第三方发送你的数据。",
       "platform": [
-        "arm"
+        "arm",
+        "x86"
       ],
       "categories": [
         "网络",
@@ -203,6 +204,19 @@
               "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/cf-bestip-domain/cf-bestip-domain-1.0.20-arm64.fpk",
               "sha256": "b32df17646048c2aff46784488dd1c8ed7db8d7d59948497eae4b66840968e1c",
               "size": 3126448
+            }
+          }
+        }
+      },
+      "1.0.22": {
+          "changelog": "在线升级：设置页可检查新版并下载 .fpk；Telegram 与飞书通知：测不到 IP、域名异常、断网（恢复后补发）默认提醒，成功换 IP 与日常测速结果可单独开启；IPv6 优选：测速最优 IPv6 并自动更新 AAAA 记录（可独立开关）；DNS 一次写入同区域前 5 的最优 IP（数量 1–5 可调），IPv6 同理；单包双架构：同一 .fpk 适配 ARM64 与 x86_64，运行时自动选用对应 cfst。",
+          "updated_at": "2026-11-25T17:30:00+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/liweisi07/fn-apps/main/cf-bestip-domain/cf-bestip-domain-1.0.22.fpk",
+              "sha256": "3ca99cf595442866418d173c580fa19e6adf71ef0273f1e779bd87e520b33729",
+              "size": 6363321
             }
           }
         }
